@@ -1,0 +1,88 @@
+aid: cropx
+url: https://raw.githubusercontent.com/api-evangelist/cropx/refs/heads/main/apis.yml
+name: CropX
+kind: company
+description: >-
+  CropX is an Israeli ag-IoT company that combines in-field soil and weather
+  hardware with a cloud Farm Management Software (FMS) platform. The hardware
+  portfolio includes SV-series soil sensors (moisture, temperature,
+  conductivity, salinity at depth), ET-series evapotranspiration sensors,
+  WS-series weather stations, RG rain gauges, the Apex root-zone sensor, an
+  in-development nitrate sensor, and TD-series cellular telemetry gateways.
+  The FMS covers farm / field / crop data, device management, irrigation
+  scheduling, disease monitoring, nutrition, effluent, and reporting. CropX
+  does not publish a public developer portal; integrations with third-party
+  sensors and machinery are arranged through their team.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Agriculture
+  - AgTech
+  - IoT
+  - Soil Sensors
+  - Irrigation
+  - Farm Management
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: cropx:fms
+    name: CropX Farm Management Software
+    description: >-
+      Cloud Farm Management Software for growers and agronomists. Modules cover
+      farm / field / crop data, device management, irrigation scheduling,
+      disease monitoring, nutrition tracking, effluent management, and reports.
+      Delivered as a web and mobile application; no public REST API.
+    humanURL: https://cropx.com/
+    baseURL: https://app.cropx.com/
+    tags:
+      - FMS
+      - Irrigation
+      - Web App
+    properties:
+      - type: Information
+        url: https://cropx.com/
+      - type: HelpCenter
+        url: https://help.cropx.com
+  - aid: cropx:sensors
+    name: CropX Sensor Hardware
+    description: >-
+      In-field IoT hardware - SV soil sensors, ET evapotranspiration sensors,
+      WS weather stations, RG rain gauges, Apex root-zone sensor, and an
+      in-development nitrate sensor - that stream readings to the CropX cloud
+      via TD-series cellular telemetry gateways.
+    humanURL: https://cropx.com/
+    baseURL: https://cropx.com/
+    tags:
+      - Hardware
+      - IoT
+      - Soil
+      - Weather
+    properties:
+      - type: Information
+        url: https://cropx.com/
+  - aid: cropx:telemetry
+    name: CropX Telemetry Gateways
+    description: >-
+      TD-series cellular telemetry gateways that connect CropX and third-party
+      sensors to the CropX cloud.
+    humanURL: https://cropx.com/
+    baseURL: https://cropx.com/
+    tags:
+      - Telemetry
+      - Cellular
+      - Gateway
+    properties:
+      - type: Information
+        url: https://cropx.com/
+common:
+  - type: Website
+    url: https://cropx.com/
+  - type: HelpCenter
+    url: https://help.cropx.com
+  - type: News
+    url: https://cropx.com/news/
+  - type: Contact
+    url: https://cropx.com/contact-us/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
