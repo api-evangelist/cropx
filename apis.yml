@@ -75,6 +75,8 @@ apis:
       - type: Information
         url: https://cropx.com/
 common:
+  - type: DomainSecurity
+    url: security/cropx-domain-security.yml
   - type: Website
     url: https://cropx.com/
   - type: HelpCenter
@@ -83,6 +85,8 @@ common:
     url: https://cropx.com/news/
   - type: Contact
     url: https://cropx.com/contact-us/
+  - url: https://cropx.com/blog/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
