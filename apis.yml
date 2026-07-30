@@ -13,7 +13,19 @@ description: >-
   scheduling, disease monitoring, nutrition, effluent, and reporting. CropX
   does not publish a public developer portal; integrations with third-party
   sensors and machinery are arranged through their team.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cropx.png
 tags:
   - Agriculture
   - AgTech
