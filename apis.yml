@@ -93,6 +93,10 @@ apis:
     tags:
       - Telemetry
       - Cellular
+      - Gateways
+    tags_raw:
+      - Telemetry
+      - Cellular
       - Gateway
     properties:
       - type: Information
