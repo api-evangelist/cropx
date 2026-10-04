@@ -74,7 +74,6 @@ apis:
       in-development nitrate sensor - that stream readings to the CropX cloud
       via TD-series cellular telemetry gateways.
     humanURL: https://cropx.com/
-    baseURL: https://cropx.com/
     tags:
       - Hardware
       - IoT
@@ -89,7 +88,6 @@ apis:
       TD-series cellular telemetry gateways that connect CropX and third-party
       sensors to the CropX cloud.
     humanURL: https://cropx.com/
-    baseURL: https://cropx.com/
     tags:
       - Telemetry
       - Cellular
