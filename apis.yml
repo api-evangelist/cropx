@@ -100,6 +100,12 @@ apis:
       - type: Information
         url: https://cropx.com/
 common:
+  - type: Plans
+    url: plans/cropx-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/cropx-rate-limits.yml
+  - type: FinOps
+    url: finops/cropx-finops.yml
   - type: DomainSecurity
     url: security/cropx-domain-security.yml
   - type: Website
